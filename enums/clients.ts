@@ -16,6 +16,17 @@ export enum clientEnum {
   socialNetwork,
   jellyfish,
   plantTherapy,
+  avante,
+  delJardin,
+  cosplayDominicano,
+  highschool,
+  outback,
+  tiempoExtra,
+  homeGallery,
+  sdq,
+  harinaBlanquita,
+  mangoBajito,
+  codepen,
 }
 
 export const client = {
@@ -36,4 +47,15 @@ export const client = {
   socialNetwork: "Social Network",
   jellyfish: "Jellyfish",
   plantTherapy: "Plant Therapy",
+  avante: "Avante Marketing",
+  delJardin: "Pasteleria del Jardin",
+  cosplayDominicano: "Cosplay Dominicano",
+  highschool: "Highschool.com.do",
+  outback: "Outback Steakhouse",
+  tiempoExtra: "TiempoExtra",
+  homeGallery: "Home Gallery",
+  sdq: "SDQ Training Center",
+  harinaBlanquita: "Harina Blanquita",
+  mangoBajito: "Mango Bajito",
+  codepen: "Codepen",
 };

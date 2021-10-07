@@ -7,11 +7,6 @@
     margin: auto;
   }
 
-  .scroll-area {
-    height: 100%;
-    padding: 3rem;
-  }
-
   article {
     height: 100%;
     position: relative;
@@ -26,6 +21,7 @@
 
     img {
       width: 100%;
+      height: auto;
       border: 1px solid var(--color-border);
     }
 

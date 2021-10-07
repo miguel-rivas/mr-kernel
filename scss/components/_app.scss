@@ -99,7 +99,7 @@
     }
 
     &.hide-panel {
-      max-width: 0;
+      max-width: 0 !important;
       border-right: 0;
 
       fieldset {

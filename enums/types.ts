@@ -9,6 +9,7 @@ export enum typeEnum {
   document,
   module,
   socialMedia,
+  graphicDesign,
 }
 
 export const type = {
@@ -22,4 +23,5 @@ export const type = {
   document: "Documentation",
   module: "Module",
   socialMedia: "Social Media",
+  graphicDesign: "Graphic Design",
 };

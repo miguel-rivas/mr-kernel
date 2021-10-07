@@ -52,6 +52,12 @@ export enum toolEnum {
   premiere,
   inkscape,
   scribus,
+  freehand,
+  sk1,
+  fireworks,
+  corelDraw,
+  gimp,
+  pencil,
 
   bootstrap = 450,
   animate,
@@ -66,6 +72,7 @@ export enum toolEnum {
   unity = 600,
   blender,
   maya,
+  autocad,
 
   kotlin = 650,
 
@@ -140,5 +147,12 @@ export const tool = {
   gulp: "Gulp",
   svg: "SVG",
   joomla: "Joomla",
-  highlight: "Highlight.js"
+  highlight: "Highlight.js",
+  freehand: "Freehand",
+  sk1: "SK1",
+  fireworks: "Fireworks",
+  corelDraw: "Corel Draw",
+  autocad: "Autocad",
+  gimp: "Gimp",
+  pencil: "Pencil",
 };

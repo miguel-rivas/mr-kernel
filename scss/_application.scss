@@ -36,9 +36,9 @@ main {
     --color-label: #104e86;
     --color-legend: #9c330a;
     --color-background-input: #dadada;
-    --color-table-background: hsl(240deg 20% 90%);
-    --color-table-background-2: hsl(240deg 20% 85%);
-    --color-table-background-hover: hsl(240deg 20% 80%);
+    --color-table-background: hsl(240deg 20% 80% / 0.2);
+    --color-table-background-2: hsl(240deg 20% 85% / 0.2);
+    --color-table-background-hover: hsl(240deg 35% 90% / 0.2);
   }
   &.nano-dark {
     --color-title: #e69b28;
@@ -53,9 +53,9 @@ main {
     --color-label: #4ca1ef;
     --color-legend: #b9b90e;
     --color-background-input: #272731;
-    --color-table-background: hsl(240deg 5% 15%);
-    --color-table-background-2: hsl(240deg 5% 18%);
-    --color-table-background-hover: hsl(240deg 10% 22%);
+    --color-table-background: hsl(240deg 5% 25% / 0.2);
+    --color-table-background-2: hsl(240deg 5% 30% / 0.2);
+    --color-table-background-hover: hsl(240deg 20% 35% / 0.2);
   }
   --title-shadow: 0;
   --color-shadow: rgb(0 0 0 / 65%);
