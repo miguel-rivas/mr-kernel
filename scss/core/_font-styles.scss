@@ -1,0 +1,56 @@
+h1 {
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--color-title);
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+p,
+li {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0 0 0.5rem;
+  line-height: 1;
+}
+
+.gallery {
+  article {
+    text-transform: uppercase;
+
+    h2 {
+      font-size: 13px;
+      letter-spacing: 3px;
+    }
+    h3 {
+      font-size: 13px;
+      letter-spacing: 3px;
+    }
+    h4 {
+      font-size: 12px;
+      letter-spacing: 3px;
+    }
+    time {
+      font-weight: 300;
+      letter-spacing: 3px;
+    }
+  }
+}

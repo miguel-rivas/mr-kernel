@@ -1,3 +1,11 @@
+ul {
+  li {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 ul.buttons {
   list-style: none;
   padding: 0;
@@ -26,12 +34,15 @@ ul.standard {
 
 ul.skills {
   list-style: none;
-  padding: 0;
-
+  padding: 10px 0;
+  margin: 0;
   li {
     font-weight: 400;
     font-size: 11px;
     letter-spacing: 3px;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 5px;
+    padding: 0.5rem;
   }
 }
 
@@ -58,6 +69,17 @@ ul.navigation {
       font-size: 12px;
       font-weight: 700;
       text-decoration: none;
+    }
+  }
+}
+
+ul.summary {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    > ul.summary {
+      padding-left: 1rem;
     }
   }
 }

@@ -111,48 +111,6 @@ hr {
   border-width: 0 0 1px 0;
 }
 
-h1 {
-  font-weight: 600;
-  font-size: 25px;
-  color: var(--color-title);
-}
-h2 {
-  font-weight: 400;
-  font-size: 18px;
-}
-h3 {
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 2px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-li {
-  margin: 0 0 0.5rem;
-  line-height: 1;
-}
-
-.nano-box {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  li {
-    margin: 0 0 0.5rem;
-    line-height: 1;
-    text-transform: uppercase;
-  }
-}
-
 /*------------------------*/
 
 .btn.flat {
@@ -239,6 +197,7 @@ main.universe {
   }
 }
 
+@import "core/font-styles";
 @import "core/icomoon";
 @import "core/animations";
 @import "core/layers";
